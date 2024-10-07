@@ -1,13 +1,12 @@
 ---
 tags:
-  - workflow
-  - note/slides
+  - project/pkm
 aliases:
   - MD to Slides
   - Markdown Powerpoint
   - markdown to powerpoint
-bibliography: C:/Users/deane/OneDrive/PKM/Resources/ZoteroLibrary.bib
-csl: C:/Users/deane/OneDrive/PKM/Resources/csl/chicago-author-date.csl
+bibliography: resources/library.bib
+csl: resources/chicago-author-date.csl
 link-citations: true
 css:
 ---

@@ -82,7 +82,7 @@ My personal vault folder essentials are:
 - `📁 Vault` mine is simply named 'PKM'
 	- `📁 Archive` projects with end dates are placed in here according to the year
 	- `📁 Resources`
-		- `📁 ZoteroLibrary` PDFs organised using [Zotero](obsidian-zotero.md)
+		- `📁 ZoteroLibrary` PDFs organised using [Zotero](zotero-guide.md)
 		- `📁 Figures` figures imported from Zotero
 	- `📁Meta` files related directly to my vault
 		- `📁 Templates`

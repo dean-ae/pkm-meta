@@ -4,38 +4,33 @@ tags:
 aliases:
   - markdown tutorial
   - pandoc tutorial
-title: markdown-guide
+title: Markdown Guide
 publish: 
 parent: 
 related: 
 projects:
 ---
 
->❔ Why **Markdown** & **Obsidian**?
->- Markdown files (`file.md`) are **lightweight**, **accessible**, and can be easily converted to PDF, Word, and HTML ([↓ exporting](markdown-guide.md#Exporting)).
->- [⩉ Obsidian](https://obsidian.md/) is a markdown editor and file organiser that can be as simple or as complicated as you want ([→ Obsidian guide](obsidian-guide.md))
+## Basic Markdown
 
-- If Obsidian disappears tomorrow, all your locally saved files will be readable by numerous other programs, such as VS Code. This cannot be said for purely online programs such as Notion.
-- That being said, Obsidian 
-- Markdown files can easily be converted to PDF(`.pdf`), Word (`.docx`), and HTML (`.html`). 
-
-## Markdown
-
-[Here is a guide/cheat sheet to Markdown syntax](https://www.markdownguide.org/cheat-sheet/).
-
-| Format                 | Markdown            | HTML                                                                           |
-| ---------------------- | ------------------- | ------------------------------------------------------------------------------ |
-| *Italics*              | `*Italics*`         | `<i>Italics</i> or <em>Italics</em>`                                           |
-| **Bold**               | `**Bold**`          | `<b>Bold</b> or <strong>Bold</strong>`                                         |
-| ~~Strikethrough~~      | `~~Strikethrough~~` |                                                                                |
-| <u>Underline</u>:      |                     | `<u>Underline</u> or <span style="text-decoration:underline">Underline</span>` |
-| <sub>Subscript</sub>   |                     | `<sub>Subscript</sub>`                                                         |
-| <sup>Superscript</sup> |                     | `<sup>Superscript</sup>`                                                       |
-
-### Headers
+Headers:
 
 - Don't use more than one Level One Header (`#`)...
 - ...unless you have a `title` property in the metadata.
+
+| Format        | Markdown            | HTML                                                                           | Output                 |
+| ------------- | ------------------- | ------------------------------------------------------------------------------ | ---------------------- |
+| Italics       | `*Italics*`         | `<i>Italics</i> or <em>Italics</em>`                                           | *Italics*              |
+| Bold          | `**Bold**`          | `<b>Bold</b> or <strong>Bold</strong>`                                         | **Bold**               |
+| Strikethrough | `~~Strikethrough~~` |                                                                                | ~~Strikethrough~~      |
+| Underline     |                     | `<u>Underline</u> or <span style="text-decoration:underline">Underline</span>` | <u>Underline</u>       |
+| Subscript     |                     | `<sub>Subscript</sub>`                                                         | <sub>Subscript</sub>   |
+| Superscipt    |                     | `<sup>Superscript</sup>`                                                       | <sup>Superscript</sup> |
+
+For a more detailed overview of markdown syntax go to these links:
+
+- [Markdown cheat sheet syntax](https://www.markdownguide.org/cheat-sheet/).
+- [Syntax for writing on GitHub](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ### Footnotes
 

@@ -5,10 +5,15 @@ tags:
 aliases:
   - how to obsidian
   - obsidian
+title: Obsidian Guide
 parent:
   - "[[Projects/pkm-meta/README|pkm-meta]]"
 related:
 ---
+
+## Contents
+
+- 
 
 ## Basics
 
@@ -37,16 +42,11 @@ Below is a table of basic hotkeys. You can view and change any hotkeys in `Setti
 
 - Wikilinks:
 	- You can link to notes in your vault using two square brackets: `[[another-note]]`. 
+		- Headings in the note: `[[another-note#heading]]`
 - Markdown links:
 	- Alternatively, you can link to files as such: `[Link to file](another-note.md)`.
-
->📄 A quick note on naming files. 
->- If you choose to use markdown links, spaces in file names are represented by `%20`.
->	- For example, the [link to my notes on digital gardens](pkm-system.md#digital%20garden) is written as:
->		- `[link](pkm-system.md#digital%20garden)`.
->- You may have noticed that I get around this by avoiding spaces in file names, opting instead for a dash (`-`).
->	- Other naming conventions include CamelCase or replacing spaces with underscores (`_`).
->- However, this is particularly unavoidable in headings, as seen in the example above.
+		- Headings in the note: `[Link to file](another-note.md#heading)`.
+- You can change how links are generated `Settings > Files and links > Use [[Wikilinks]]`.
 
 ## Properties
 
@@ -69,13 +69,15 @@ I love aliases - it's one of primary reasons I love Obsidian so much. Say, for e
 
 Another example to illustrate the usefulness of this feature is in species notes. Say you have a note about *Ursus maritimus* but have forgotten the Latin, simply add "polar bear" as an alias.
 
-## Templates
+## Core Plugins
+
+### Templates
 
 - Templates are pre-built blocks of text or code that you can insert into you note. This includes the metadata. For example, I have a default template that includes the metadata: `tags` and `aliases`. Unless I'm creating a special note, every time I create a new note I insert this template.
 - Templates need to be stored in a specific folder. You name the folder anything and place it anywhere, just let Obsidian know where it is in the settings.
 	- My folder structure is `Meta/Templates`.
 
-### Task: Create a default note template
+#### Task: Create a default note template
 
 Steps:
 
@@ -112,6 +114,12 @@ You have just inserted a template with properties that you can start populating.
 ### Snippets
 
 - [CSS Snippet Collection from r-u-s-h-i-k-e-s-h](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/tree/Collection/Snippets)
+
+## Aesthetics
+
+### Fonts
+
+### Theme
 
 ## Resources
 
