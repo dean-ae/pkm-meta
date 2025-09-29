@@ -1,42 +1,60 @@
 ---
 tags:
-  - guide
-  - project/pkm
+  - pkm
 aliases:
-  - how to obsidian
-  - obsidian
-title: Obsidian Guide
-parent:
-  - "[[Projects/pkm-meta/README|pkm-meta]]"
-related:
+  - community plugins
+  - obsidian guide
 ---
 
-## Contents
+To increase the functionality of Obsidian you can install community plugins: `Settings > Community plugins`.
 
-- 
+>[!bug] Avoid too many Obsidian plugins as it may slow down the program or plugins may negatively interact.
+
+- Here are some small plugins to improve functionality:
+	- Homepage
+	- Tag Wrangler
+	- Calendar
+	- Kanban
+- Here are some more complicated plugins I recommend:
+	- Dataview
+		- This can get very confusing. For now, just note that it can show you all the notes in a folder and you can select the metadata you want to see and sort by.
+	- Style Settings
+		- Once you've installed a community theme (my choice is Minimal), you can edit it using Style Settings.
+	- Templater
+		- Create and use detailed templates.
+
+## Vault Structure
+
+- `📁 Vault` mine is simply named 'PKM'
+	- `📁 Archive` projects with end dates are placed in here according to the year
+	- `📁 Library` notes on literature, movies, and image collections
+	- `📁 Resources`
+		- `📁 ZoteroLibrary` PDFs organised using [Zotero](Zotero.md)
+			  ❕I moved my PDFs outside of Obsidian increase the speed of the application.
+		- `📁 Figures` figures imported from Zotero
+	- `📁 Meta` files related directly to my vault
+		- `📁 Templates`
+		- `📁 Plugins and Snippets` description of Community Plugins and [CSS snippets](obsidian-guide.md#snippets)
+
+## Templates and Templater
+
+Folder path:
+
+```
+"Meta/Templates"
+```
 
 ## Basics
 
 - Your **vault** is the location of your Obsidian files.
 	- See a more detailed folder structure [here](pkm-system.md#vault).
-- You can add [community plugins](obsidian-plugins.md), [themes](obsidian-guide.md#theme), and [CSS snippets](obsidian-guide.md#snippets) to extend the capabilities or make the interface prettier.
+- You can add [community plugins](Obsidian.md), [themes](obsidian-guide.md#theme), and [CSS snippets](obsidian-guide.md#snippets) to extend the capabilities or make the interface prettier.
 
 ### Hotkeys
 
 Below is a table of basic hotkeys. You can view and change any hotkeys in `Settings > Hotkeys`. Some of my personal hotkeys have been changed to mirror those in VS Code.
 
-| Command                      | Hotkeys (default) | Hotkeys (personal)     |
-| ---------------------------- | ----------------- | ---------------------- |
-| **Open** file                | `CTRL/CMD + O`    | `CTRL/CMD + P`         |
-| **Commands** list            | `CTRL/CMD + P`    | `CTRL/CMD + SHIFT + P` |
-| **New** note                 | `CTRL/CMD + N`    |                        |
-| Move line **up**             |                   | `ALT + ↑`              |
-| Move line **down**           |                   | `ALT + ↓`              |
-| Open **settings**            | `CTRL/CMD + ,`    |                        |
-| **Live** preview/source mode |                   | `CTRL/CMD + SHIFT + M` |
-| Insert **template**          |                   | `ALT + I`              |
-| Toggle **left sidebar**      |                   | `CTRL/CMD + SHIFT + ,` |
-| Toggle **right sidebar**     |                   | `CTRL/CMD + SHIFT + .` |
+See [hotkeys](obsidian/hotkeys.md).
 
 ## Links
 
@@ -89,6 +107,7 @@ Steps:
 ---
 tags:
 aliases:
+projects: 
 created: {{date:YYYY-MM-DD}}
 parent:
 related:
@@ -105,9 +124,13 @@ You have just inserted a template with properties that you can start populating.
 
 ## Aesthetics
 
-### Fonts
+My preferred setup is as follows:
 
-### Theme
+- **Text & interface font**: Roboto, Segoe UI, [Manrope](https://www.gent.media/manrope), Arial, sans-serif
+- **Monospace font**: Roboto Mono, [Fira Code](https://github.com/tonsky/FiraCode), Consolas, mono
+- **Accent color** suggestion: `#28afea` is a blue similar to Microsoft Outlook
+- **Theme**: Minimal (with Minimal Theme Settings and Style Settings)
+	- Light & dark mode color schemes: macOS
 
 ## Advanced
 
@@ -115,11 +138,34 @@ You have just inserted a template with properties that you can start populating.
 
 - [CSS Snippet Collection from r-u-s-h-i-k-e-s-h](https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/tree/Collection/Snippets)
 
-## Aesthetics
+## Community Plugins
 
-### Fonts
+Simple, necessary plugins that need no explanation include:
 
-### Theme
+- **Calendar**
+- **Minimal Theme Settings**
+- **Settings Search**
+- Extras
+	- **CSS Inlay Colors**
+
+More complicated plugins and their context include:
+
+- Vault organisation functionality:
+	- **Dataview** for showing notes using different filters
+	- **Templater** for making more functional templates
+	- **Tasks** for organising and automating Markdown checkboxes (`- [ ]`)
+	- **Excalidraw** for drawing
+	- *Good for homepage and mobile*
+		- **Homepage** is used to indicate a note as home page
+		- **Banners** adds banners to notes like in Notion (I only use this for my home page)
+		- **Buttons** creates buttons that can perform certain functions
+	- **Kanban**
+	- **Tag Wrangler** lets you change tag names throughout your vault
+	- **Periodic Notes** expands the default daily note into weekly, monthly, quarterly, and yearly notes
+- Zotero-Obsidian workflow:
+	- **Pandoc Reference List**
+	- **Zotero Integration**
+	- Pandoc Plugin
 
 ## Resources
 
