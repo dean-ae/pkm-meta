@@ -1,0 +1,49 @@
+{
+  "mobileToolbarCommands": [
+    "daily-notes",
+    "insert-template",
+    "editor:insert-wikilink",
+    "editor:undo",
+    "editor:redo",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:toggle-keyboard",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-checklist-status",
+    "editor:toggle-code",
+    "editor:toggle-highlight",
+    "editor:toggle-strikethrough",
+    "editor:toggle-blockquote",
+    "editor:attach-file",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:configure-toolbar"
+  ],
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "showInlineTitle": true,
+  "attachmentFolderPath": "Images",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 94
+  },
+  "userIgnoreFilters": [
+    "Meta/Class/"
+  ],
+  "readableLineLength": true,
+  "promptDelete": false,
+  "tabSize": 4,
+  "propertiesInDocument": "visible",
+  "useMarkdownLinks": false,
+  "defaultViewMode": "source",
+  "useTab": true,
+  "livePreview": true,
+  "strictLineBreaks": false
+}

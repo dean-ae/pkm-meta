@@ -1,0 +1,6 @@
+---
+tags:
+  - app
+aliases:
+  - R
+---

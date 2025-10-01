@@ -1,6 +1,6 @@
 ---
 tags:
-  - guide
+  - computer-language
 aliases:
   - MD
 title: Markdown Guide
@@ -52,5 +52,3 @@ For a more detailed overview of markdown syntax go to these links:
 ---
 
 **[[academic-writing|Academic Writing]]** `|>` [[Zotero]] `->` [[Markdown]] `->` [[Pandoc]]
-
-![[dean-ae-footer#^guides]]

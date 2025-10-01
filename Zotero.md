@@ -1,12 +1,7 @@
 ---
 tags:
-  - guide
-  - pkm
   - app
-aliases: 
-title: Zotero Guide
-parent: 
-theme: consult
+aliases:
 ---
 
 ## Why Zotero?

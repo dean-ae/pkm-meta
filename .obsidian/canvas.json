@@ -1,0 +1,8 @@
+{
+  "snapToObjects": true,
+  "snapToGrid": true,
+  "defaultWheelBehavior": "pan",
+  "newFileLocation": "folder",
+  "newFileFolderPath": "maps",
+  "cardLabelVisibility": "hover"
+}

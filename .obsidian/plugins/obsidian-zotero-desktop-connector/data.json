@@ -1,0 +1,30 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Literature",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [],
+  "exportFormats": [
+    {
+      "name": "Import (Article)",
+      "outputPathTemplate": "Literature/{{citekey}}.md",
+      "imageOutputPathTemplate": "Literature/Figures/{{citekey}}_Figures",
+      "imageBaseNameTemplate": "image_{{citekey}}",
+      "templatePath": "Meta/Templates/Zotero Article.md",
+      "cslStyle": "chicago-author-date"
+    },
+    {
+      "name": "Import (Textbook)",
+      "outputPathTemplate": "Library/Textbooks/{{citekey}}.md",
+      "imageOutputPathTemplate": "Library/Figures/{{citekey}}_Figures",
+      "imageBaseNameTemplate": "image_{{citekey}}",
+      "templatePath": "Meta/Templates/Zotero Textbook.md",
+      "cslStyle": "chicago-author-date"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": true,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "exeOverridePath": "C:\\Users\\deane\\OneDrive\\PKM\\.obsidian\\plugins\\obsidian-zotero-desktop-connector\\pdfannots2json.exe"
+}

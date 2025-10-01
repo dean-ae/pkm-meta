@@ -1,14 +1,5 @@
----
-tags:
-  - pkm
-aliases:
-  - pkm-meta
-title: Personal Knowledge Management System
----
 
-<!--
-Personal Knowledge Management System for Biology Students.
--->
+<span class='toyored'><center>Personal Knowledge Management System for Biology Students.</center></span>
 
 ## Contents
 
@@ -42,3 +33,11 @@ If Obsidian disappears tomorrow, all your locally saved files will be readable b
 ## Getting Started
 
 Firstly, here are links to download [🔗 Obsidian](https://obsidian.md/) and [🔗 Zotero](https://www.zotero.org/). If you plan to export your notes for publications, I recommend [🔗 MiKTeX](https://miktex.org/) for compilation packages.
+
+## Resources
+
+- [Fork My Brain - Nicole van der Hoeven](https://notes.nicolevanderhoeven.com/Fork+My+Brain)
+- [GitHub - oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden)
+- [Welcome to Quartz 4](https://quartz.jzhao.xyz/)
+- [I built Jeff Su's Notion in Obsidian](https://www.youtube.com/watch?v=PGPBYBTO7xA)
+- https://github.com/groepl/Obsidian-Templates

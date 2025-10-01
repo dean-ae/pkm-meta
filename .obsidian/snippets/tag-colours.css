@@ -1,0 +1,655 @@
+/* Colour Blocks */
+/* Original idea from: https://gist.github.com/mklepaczewski/54e451f09994b9d450de81c8baaf8aa4 */
+/* but also with simpler classes so you can use `<span class='colour'>` as well */
+
+/* Dark theme */
+.theme-dark {
+  --text-red: rgb(255, 115, 105);
+  --text-fire: rgb(230, 40, 41);
+  --text-toyored: rgb(176, 49, 50);
+  --text-modred: rgb(255, 67, 67);
+  --text-orange: rgb(255, 163, 68);
+  --text-fighting: rgb(255, 128, 0);
+  --text-yellow: rgb(255, 220, 73);
+  --text-Italianyellow: rgb(255, 248, 153);
+  --text-electric: rgb(250, 192, 0);
+  --text-sun: rgb(255, 203, 121);
+  --text-green: rgb(77, 171, 154);
+  --text-bug: rgb(145, 161, 25);
+  --text-grass: rgb(63, 161, 41);
+  --text-moss: rgb(75, 97, 79);
+  --text-gray: rgba(255, 255, 255, 0.6);
+  --text-brown: rgb(147, 114, 100);
+  --text-blue: rgb(82, 156, 202);
+  --text-navy: rgb(12, 67, 118);
+  --text-dragon: rgb(80, 96, 225);
+  --text-flying: rgb(129, 185, 239);
+  --text-ice: rgb(61, 206, 243);
+  --text-water: rgb(41, 128, 239);
+  --text-steel: rgb(96, 161, 184);
+  --text-purple: rgb(154, 109, 215);
+  --text-poison: rgb(145, 65, 203);
+  --text-ghost: rgb(112, 65, 112);
+  --text-pink: rgb(226, 85, 161);
+  --text-fairy: rgb(239, 112, 239);
+  --text-psychic: rgb(239, 65, 121);
+  --text-normalnormal: rgb(158, 161, 159);
+  --text-dark: rgb(98, 77, 78);
+  --text-ground: rgb(145, 81, 33);
+  --text-rock: rgb(175, 169, 129);
+
+  --background-gray: rgb(69, 75, 78);
+  --background-brown: rgb(67, 64, 64);
+  --background-orange: rgb(89, 74, 58);
+  --background-yellow: rgb(89, 86, 59);
+  --background-green: rgb(53, 76, 75);
+  --background-blue: rgb(54, 73, 84);
+  --background-purple: rgb(68, 63, 87);
+  --background-pink: rgb(83, 59, 76);
+  --background-red: rgb(89, 65, 65);
+}
+
+/* Light theme */
+.theme-light {
+  --text-red: rgb(255, 115, 105);
+  --text-fire: rgb(230, 40, 41);
+  --text-toyored: rgb(176, 49, 50);
+  --text-modred: rgb(255, 67, 67);
+  --text-orange: rgb(255, 163, 68);
+  --text-fighting: rgb(255, 128, 0);
+  --text-yellow: rgb(255, 220, 73);
+  --text-Italianyellow: rgb(255, 248, 153);
+  --text-electric: rgb(250, 192, 0);
+  --text-sun: rgb(255, 203, 121);
+  --text-green: rgb(77, 171, 154);
+  --text-bug: rgb(145, 161, 25);
+  --text-grass: rgb(63, 161, 41);
+  --text-moss: rgb(75, 97, 79);
+  --text-gray: rgba(255, 255, 255, 0.6);
+  --text-brown: rgb(147, 114, 100);
+  --text-blue: rgb(82, 156, 202);
+  --text-navy: rgb(12, 67, 118);
+  --text-dragon: rgb(80, 96, 225);
+  --text-flying: rgb(129, 185, 239);
+  --text-ice: rgb(61, 206, 243);
+  --text-water: rgb(41, 128, 239);
+  --text-steel: rgb(96, 161, 184);
+  --text-purple: rgb(154, 109, 215);
+  --text-poison: rgb(145, 65, 203);
+  --text-ghost: rgb(112, 65, 112);
+  --text-pink: rgb(226, 85, 161);
+  --text-fairy: rgb(239, 112, 239);
+  --text-psychic: rgb(239, 65, 121);
+  --text-normalnormal: rgb(158, 161, 159);
+  --text-dark: rgb(98, 77, 78);
+  --text-ground: rgb(145, 81, 33);
+  --text-rock: rgb(175, 169, 129);
+
+  --background-gray: rgb(235, 236, 237);
+  --background-brown: rgb(233, 229, 227);
+  --background-orange: rgb(250, 235, 221);
+  --background-yellow: rgb(251, 243, 219);
+  --background-green: rgb(221, 237, 234);
+  --background-blue: rgb(221, 235, 241);
+  --background-purple: rgb(234, 228, 242);
+  --background-pink: rgb(244, 223, 235);
+  --background-red: rgb(251, 228, 228);
+}
+
+.app-container .markdown-preview-view pre[class*="language-note-"] {
+  padding: 3px 2px;
+  border-radius: 0;
+}
+
+.app-container .markdown-preview-view pre[class*="language-note-"] code[class*="language-note-"] {
+  color: var(--text-normal);
+  white-space: pre-wrap;
+  font-family: var(--default-font);
+  font-size: 1rem;
+  padding: 0;
+  background:none;
+}
+
+.app-container .markdown-preview-view pre.language-note-notice,
+.app-container .markdown-preview-view pre.language-note-gray-background,
+.app-container .markdown-preview-view pre.language-note-gray-bg,
+.gray-background,
+.gray-bg {
+  background-color: var(--background-gray);
+}
+
+.app-container .markdown-preview-view pre.language-note-brown-background,
+.app-container .markdown-preview-view pre.language-note-brown-bg,
+.brown-background,
+.brown-bg {
+  background-color: var(--background-brown);
+}
+
+.app-container .markdown-preview-view pre.language-note-orange-background,
+.app-container .markdown-preview-view pre.language-note-orange-bg,
+.orange-background,
+.orange-bg {
+  background-color: var(--background-orange);
+}
+
+.app-container .markdown-preview-view pre.language-note-warn,
+.app-container .markdown-preview-view pre.language-note-yellow-background,
+.app-container .markdown-preview-view pre.language-note-yellow-bg,
+.yellow-background,
+.yellow-bg {
+  background-color: var(--background-yellow)
+}
+
+.app-container .markdown-preview-view pre.language-note-success,
+.app-container .markdown-preview-view pre.language-note-green-background,
+.app-container .markdown-preview-view pre.language-note-green-bg,
+.green-background,
+.green-bg {
+  background-color: var(--background-green);
+}
+
+.app-container .markdown-preview-view pre.language-note-info,
+.app-container .markdown-preview-view pre.language-note-blue-background,
+.app-container .markdown-preview-view pre.language-note-blue-bg,
+.blue-background,
+.blue-bg {
+  background-color: var(--background-blue);
+}
+
+.app-container .markdown-preview-view pre.language-note-purple-background,
+.app-container .markdown-preview-view pre.language-note-purple-bg,
+.purple-background,
+.purple-bg {
+  background-color: var(--background-purple);
+}
+
+.app-container .markdown-preview-view pre.language-note-pink-background,
+.app-container .markdown-preview-view pre.language-note-pink-bg,
+.pink-background,
+.pink-bg {
+  background-color: var(--background-pink);
+}
+
+.app-container .markdown-preview-view pre.language-note-danger,
+.app-container .markdown-preview-view pre.language-note-red-background,
+.app-container .markdown-preview-view pre.language-note-red-bg,
+.red-background,
+.red-bg {
+  background-color: var(--background-red);
+}
+
+.app-container .markdown-preview-view pre.language-note-gray,
+.app-container .markdown-preview-view pre.language-note-brown,
+.app-container .markdown-preview-view pre.language-note-orange,
+.app-container .markdown-preview-view pre.language-note-yellow,
+.app-container .markdown-preview-view pre.language-note-green,
+.app-container .markdown-preview-view pre.language-note-blue,
+.app-container .markdown-preview-view pre.language-note-purple,
+.app-container .markdown-preview-view pre.language-note-pink,
+.app-container .markdown-preview-view pre.language-note-red {
+  background-color: transparent;
+}
+
+/* =================================================== */
+/* Base Colours */
+/* =================================================== */
+
+.app-container .markdown-preview-view pre.language-note-gray code.language-note-gray,
+.gray {
+  color: var(--text-gray);
+}
+
+.app-container .markdown-preview-view pre.language-note-brown code.language-note-brown,
+.brown {
+  color: var(--text-brown);
+}
+
+.app-container .markdown-preview-view pre.language-note-orange code.language-note-orange,
+.orange {
+  color: var(--text-orange);
+}
+
+.app-container .markdown-preview-view pre.language-note-yellow code.language-note-yellow,
+.yellow {
+  color: var(--text-yellow)
+}
+
+.app-container .markdown-preview-view pre.language-note-green code.language-note-green,
+.green {
+  color: var(--text-green);
+}
+
+.app-container .markdown-preview-view pre.language-note-blue code.language-note-blue,
+.blue {
+  color: var(--text-blue);
+}
+
+.app-container .markdown-preview-view pre.language-note-purple code.language-note-purple,
+.purple {
+  color: var(--text-purple);
+}
+
+.app-container .markdown-preview-view pre.language-note-pink code.language-note-pink,
+.pink {
+  color: var(--text-pink);
+}
+
+.app-container .markdown-preview-view pre.language-note-red code.language-note-red,
+.red {
+  color: var(--text-red);
+}
+
+/* =================================================== */
+/* Pokémon */
+/* =================================================== */
+
+.app-container .markdown-preview-view pre.language-note-grass code.language-note-grass,
+.grass {
+  color: var(--text-grass);
+}
+
+.app-container .markdown-preview-view pre.language-note-bug code.language-note-bug,
+.bug {
+  color: var(--text-bug);
+}
+
+.app-container .markdown-preview-view pre.language-note-dark code.language-note-dark,
+.dark {
+  color: var(--text-dark);
+}
+
+.app-container .markdown-preview-view pre.language-note-dragon code.language-note-dragon,
+.dragon {
+  color: var(--text-dragon);
+}
+
+.app-container .markdown-preview-view pre.language-note-electric code.language-note-electric,
+.electric {
+  color: var(--text-electric);
+}
+
+.app-container .markdown-preview-view pre.language-note-fairy code.language-note-fairy,
+.fairy {
+  color: var(--text-fairy);
+}
+
+.app-container .markdown-preview-view pre.language-note-fighting code.language-note-fighting,
+.fighting {
+  color: var(--text-fighting);
+}
+
+.app-container .markdown-preview-view pre.language-note-fire code.language-note-fire,
+.fire {
+  color: var(--text-fire);
+}
+
+.app-container .markdown-preview-view pre.language-note-flying code.language-note-flying,
+.flying {
+  color: var(--text-flying);
+}
+
+.app-container .markdown-preview-view pre.language-note-ghost code.language-note-ghost,
+.ghost {
+  color: var(--text-ghost);
+}
+
+.app-container .markdown-preview-view pre.language-note-grass code.language-note-grass,
+.grass {
+  color: var(--text-grass);
+}
+
+.app-container .markdown-preview-view pre.language-note-ground code.language-note-ground,
+.ground {
+  color: var(--text-ground);
+}
+
+.app-container .markdown-preview-view pre.language-note-ice code.language-note-ice,
+.ice {
+  color: var(--text-ice);
+}
+
+.app-container .markdown-preview-view pre.language-note-normalnormal code.language-note-normalnormal,
+.normalnormal {
+  color: var(--text-normalnormal);
+}
+
+.app-container .markdown-preview-view pre.language-note-poison code.language-note-poison,
+.poison {
+  color: var(--text-poison);
+}
+
+.app-container .markdown-preview-view pre.language-note-psychic code.language-note-psychic,
+.psychic {
+  color: var(--text-psychic);
+}
+
+.app-container .markdown-preview-view pre.language-note-rock code.language-note-rock,
+.rock {
+  color: var(--text-rock);
+}
+
+.app-container .markdown-preview-view pre.language-note-steel code.language-note-steel,
+.steel {
+  color: var(--text-steel);
+}
+
+.app-container .markdown-preview-view pre.language-note-water code.language-note-water,
+.water {
+  color: var(--text-water);
+}
+
+/* =================================================== */
+/* Custom */
+/* =================================================== */
+
+.app-container .markdown-preview-view pre.language-note-sun code.language-note-sun,
+.sun {
+  color: var(--text-sun);
+}
+
+/* =================================================== */
+/* Toyo Colours */
+/* =================================================== */
+
+
+.app-container .markdown-preview-view pre.language-note-navy code.language-note-navy,
+.navy {
+  color: var(--text-navy);
+}
+
+.app-container .markdown-preview-view pre.language-note-moss code.language-note-moss,
+.moss {
+  color: var(--text-moss);
+}
+
+.app-container .markdown-preview-view pre.language-note-toyored code.language-note-toyored,
+.toyored {
+  color: var(--text-toyored);
+}
+
+.app-container .markdown-preview-view pre.language-note-Italianyellow code.language-note-Italianyellow,
+.Italianyellow {
+  color: var(--text-Italianyellow);
+}
+
+.app-container .markdown-preview-view pre.language-note-modred code.language-note-modred,
+.modred {
+  color: var(--text-modred);
+}
+
+/* =================================================== */
+/* # TAGS */
+/* =================================================== */
+
+/* bug */
+a.tag[href="#bug"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#bug"] {
+    color: #91a119 !important;
+    background-color: #91a1191a;
+    border: 1px solid #91a119;
+}
+
+/* dark */
+a.tag[href="#dark"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#dark"] {
+    color: #624d4e !important;
+    background-color: #624d4e1a;
+    border: 1px solid #624d4e;
+}
+
+/* dragon */
+a.tag[href="#dragon"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#dragon"] {
+    color: #5060e1 !important;
+    background-color: #5060e11a;
+    border: 1px solid #5060e1;
+}
+
+/* electric */
+a.tag[href="#electric"],
+a.tag[href="#col/yellow"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#electric"] {
+    color: #fac000 !important;
+    background-color: #fac0001a;
+    border: 1px solid #fac000;
+}
+
+/* fairy */
+a.tag[href="#fairy"],
+a.tag[href="#col/pink"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#fairy"] {
+  color: rgb(239, 112, 239) !important;
+  background-color: rgba(239, 112, 239, 0.1);
+  border: 1px solid rgb(239, 112, 239);
+}
+
+/* fighting */
+a.tag[href="#fighting"],
+a.tag[href="#col/orange"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#fighting"] {
+  color: rgb(255, 128, 0) !important;
+  background-color: rgba(255, 128, 0, 0.1);
+  border: 1px solid rgb(255, 128, 0);
+}
+
+/* fire */
+a.tag[href="#fire"],
+a.tag[href="#col/red"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#fire"] {
+  color: rgb(230, 40, 41) !important;
+  background-color: rgba(230, 40, 41, 0.1);
+  border: 1px solid rgb(230, 40, 41);
+}
+
+/* flying */
+a.tag[href="#flying"],
+a.tag[href="#col/light-blue"],
+a.tag[href="#key"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#flying"] {
+  color: rgb(129, 185, 239) !important;
+  background-color: rgba(129, 185, 239, 0.1);
+  border: 1px solid rgb(129, 185, 239);
+}
+
+/* ghost */
+a.tag[href="#ghost"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#ghost"] {
+  color: rgb(112, 65, 112) !important;
+  background-color: rgba(112, 65, 112, 0.1);
+  border: 1px solid rgb(112, 65, 112);
+}
+
+/* grass */
+a.tag[href="#grass"],
+a.tag[href="#col/green"],
+a.tag[href="#leaf/opposite"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#grass"] {
+  color: rgb(63, 161, 41) !important;
+  background-color: rgba(63, 161, 41, 0.1);
+  border: 1px solid rgb(63, 161, 41);
+}
+
+/* ground */
+a.tag[href="#ground"],
+a.tag[href="#col/brown"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#ground"] {
+  color: rgb(145, 81, 33) !important;
+  background-color: rgba(145, 81, 33, 0.1);
+  border: 1px solid rgb(145, 81, 33);
+}
+
+/* ice */
+a.tag[href="#ice"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#ice"] {
+  color: rgb(61, 206, 243) !important;
+  background-color: rgba(61, 206, 243, 0.1);
+  border: 1px solid rgb(61, 206, 243);
+}
+
+/* normal */
+a.tag[href="#normal"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#normal"] {
+  color: rgb(158, 161, 159) !important;
+  background-color: rgba(158, 161, 159, 0.1);
+  border: 1px solid rgb(158, 161, 159);
+}
+
+/* poison */
+a.tag[href="#poison"],
+a.tag[href="#col/purple"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#poison"] {
+  color: rgb(145, 65, 203) !important;
+  background-color: rgba(145, 65, 203, 0.1);
+  border: 1px solid rgb(145, 65, 203);
+}
+
+/* psychic */
+a.tag[href="#psychic"],
+a.tag[href="#col/hot-pink"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#psychic"] {
+  color: rgb(239, 65, 121) !important;
+  background-color: rgba(239, 65, 121, 0.1);
+  border: 1px solid rgb(239, 65, 121);
+}
+
+/* rock */
+a.tag[href="#rock"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#rock"] {
+  color: rgb(175, 169, 129) !important;
+  background-color: rgba(175, 169, 129, 0.1);
+  border: 1px solid rgb(175, 169, 129);
+}
+
+/* steel */
+a.tag[href="#steel"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#steel"] {
+  color: rgb(96, 161, 184) !important;
+  background-color: rgba(96, 161, 184, 0.1);
+  border: 1px solid rgb(96, 161, 184);
+}
+
+/* water */
+a.tag[href="#water"],
+a.tag[href="#col/blue"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#water"] {
+  color: rgb(41, 128, 239) !important;
+  background-color: rgba(41, 128, 239, 0.1);
+  border: 1px solid rgb(41, 128, 239);
+}
+
+/* white */
+a.tag[href="#col/white"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(36, 36, 36, 0.1);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* black */
+a.tag[href="#col/black"] {
+  color: rgb(51, 51, 51) !important;
+  background-color: rgba(212, 212, 212, 0.1);
+  border: 1px solid rgb(20, 20, 20);
+}
+
+/* reading */
+a.tag[href="#reading"] {
+  color: rgb(255, 220, 122) !important;
+  background-color: rgba(83, 83, 83, 0.589);
+  border: 1px solid rgb(255, 220, 122);
+}
+
+/* # Quality */
+
+/* good */
+a.tag[href="#good"] {
+  color: rgb(109, 173, 125) !important;
+  background-color: rgb(109, 173, 125, 0.1);
+  border: 1px solid rgb(109, 173, 125);
+}
+
+/* bad */
+a.tag[href="#bad"] {
+  color: rgb(196, 90, 90) !important;
+  background-color: rgb(196, 90, 90, 0.1);
+  border: 1px solid rgb(196, 90, 90);
+}
+
+/* okay */
+a.tag[href="#okay"] {
+  color: rgb(255, 203, 121) !important;
+  background-color: rgb(255, 203, 121, 0.1);
+  border: 1px solid rgb(255, 203, 121);
+}
+
+
+/* =================================================== */
+/* Status */
+/* =================================================== */
+
+a.tag[href="#status/seed"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#status/seed"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(128, 83, 51);
+  border: 1px solid rgb(128, 83, 51);
+}
+
+a.tag[href="#status/deciduous"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#status/deciduous"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(76, 180, 75);
+  border: 1px solid rgb(76, 180, 75);
+}
+
+a.tag[href="#status/evergreen"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#status/evergreen"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(44, 127, 71);
+  border: 1px solid rgb(44, 127, 71);
+}
+
+a.tag[href="#status/flower"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#status/flower"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(235, 85, 163);
+  border: 1px solid rgb(235, 85, 163);
+}
+
+a.tag[href="#status/fruit"],
+a.tag[href="#fruit"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#status/fruit"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(255, 119, 95);
+  border: 1px solid rgb(255, 119, 95);
+}
+
+/* =================================================== */
+/* Bio */
+/* =================================================== */
+
+a.tag[href="#fn/atmobiotic"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#fn/atmobiotic"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(76, 180, 75);
+  border: 1px solid rgb(76, 180, 75);
+}
+
+a.tag[href="#fn/epedaphic"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#fn/epedaphic"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(41, 95, 40);
+  border: 1px solid rgb(41, 95, 40);
+}
+
+a.tag[href="#fn/hemiedaphic"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#fn/hemiedaphic"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(35, 65, 34);
+  border: 1px solid rgb(35, 65, 34);
+}
+
+a.tag[href="#fn/euedaphic"],
+.cm-s-obsidian span.cm-hashtag.cm-tag[href="#fn/euedaphic"] {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(12, 18, 12);
+  border: 1px solid rgb(12, 18, 12);
+}

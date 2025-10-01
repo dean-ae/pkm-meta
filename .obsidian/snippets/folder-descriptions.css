@@ -1,0 +1,49 @@
+
+:root {
+  --folder-comments-height: 30px;
+  --folder-comments-left: 30px;
+}
+
+.tree-item-inner::after {
+  position: absolute;
+  font-size: 10px;
+  bottom: 4px;
+  left: 25px;
+  opacity: 40%;
+}
+
+.tree-item .nav-folder:not(.is-collapsed) .tree-item-inner::after {
+  color: var(--custom-color-primary);
+  opacity: 100;
+}
+
+.nav-folder-title[data-count]::after {
+  align-self: start;
+}
+
+/* Daily */
+[data-path="Daily"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="Daily"] .tree-item-inner::after {
+  content: "Daily notes.";
+}
+
+/* Literature */
+[data-path="Literature"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="Literature"] .tree-item-inner::after {
+  content: "PDFs and literature notes.";
+}
+
+/* Meta */
+[data-path="Meta"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="Meta"] .tree-item-inner::after {
+  content: "Obsidian-related files.";
+}

@@ -1,0 +1,18 @@
+{
+  "pathToPandoc": "C:\\Users\\deane\\AppData\\Local\\Pandoc\\pandoc.EXE",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "My Library",
+      "lastUpdate": 1759154635048
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pathToBibliography": "C:\\Users\\deane\\OneDrive\\PKM\\Resources\\ZoteroLibrary.bib",
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl",
+  "pullFromZotero": true,
+  "enableCiteKeyCompletion": true
+}

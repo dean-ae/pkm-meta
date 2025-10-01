@@ -1,10 +1,12 @@
 ---
 tags:
-  - pkm
+  - app
 aliases:
   - community plugins
   - obsidian guide
 ---
+
+Obsidian is a markdown editor
 
 To increase the functionality of Obsidian you can install community plugins: `Settings > Community plugins`.
 
