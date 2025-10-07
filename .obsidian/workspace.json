@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "056c6a08a5c314b2",
+        "id": "a29ea93f4e447bef",
         "type": "tabs",
         "children": [
           {
-            "id": "4c3571c36553c337",
+            "id": "7ece0e7f67738de3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "README"
             }
           }
         ]
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Obsidian"
+              "title": "Backlinks for README"
             }
           }
         ]
@@ -199,23 +199,27 @@
       "pexels-banner:🚩 Pixel Banner Menu": false
     }
   },
-  "active": "4c3571c36553c337",
+  "active": "7ece0e7f67738de3",
   "lastOpenFiles": [
+    "Meta/Home.md",
+    "Clippings/I found these springtails in a flower earlier this summer in Scotland. They were quite large as springtails go. Any idea which species.md",
+    "Clippings",
     "README.md",
+    "Base.base",
+    "Daily/2025-10-01.md",
+    "Obsidian.md",
+    "PKM.md",
+    "RStudio.md",
     "Meta/Templates/0-default.md",
     "Meta/Templates/1-extra.md",
     "Meta/Templates/2-icon-banner.md",
-    "Meta/Home.md",
     "Meta/Templates/daily.md",
     "Meta/Plugins.md",
     "Literature/Notes",
     "Literature/PDFs",
     "Literature/Literature Notes",
     "Literature",
-    "PKM.md",
-    "Obsidian.md",
     "Markdown.md",
-    "RStudio.md",
     "Zotero.md",
     "pkm-system.md",
     "productivity-methods.md",
@@ -230,13 +234,10 @@
     "Projects/pkm-meta/pkm-system.md",
     "Daily Notes/2025-09-29.md",
     "Projects/BIO-MSc/M2_LiteratureReview/M21-tropical-islands.md",
-    "Projects/BIO-MSc/msc.base",
     "Daily Notes/2025-09-26.md",
-    "literature 科學文獻.base",
     "Principle Component Analysis.md",
     "Developer/custom-icons/library.png",
     "R defaults.md",
-    "RStudio Aesthetics.md",
     "Developer/R/cheatsheets-documentation/R_col.png",
     "Developer/custom-icons/directory-opus.png",
     "Developer/R/tidyverse/ggsave_example.svg",

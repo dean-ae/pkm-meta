@@ -1,0 +1,17 @@
+views:
+  - type: table
+    name: Table
+  - type: table
+    name: Diary
+    filters:
+      and:
+        - file.inFolder("Daily")
+    order:
+      - file.name
+      - aliases
+    sort:
+      - property: file.name
+        direction: ASC
+    limit: 7
+    columnSize:
+      file.name: 156

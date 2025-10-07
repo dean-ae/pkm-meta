@@ -1,6 +1,4 @@
 
-<span class='toyored'><center>Personal Knowledge Management System for Biology Students.</center></span>
-
 ## Contents
 
 - [Obsidian](Obsidian.md)
@@ -14,7 +12,7 @@
 
 ## Second Brain/Personal Knowledge Management System
 
->[!QUOTE] "Your mind is for having ideas, not holding them." - David Allen
+> "Your mind is for having ideas, not holding them." - David Allen
 
 Intelligence has certainly been advantageous in our survival as humans. However, our evolutionary history has only required memory to work well *enough*. Memory need not be perfect. In the period we find ourselves we interact with an overwhelming amount of information. Simultaneously, we find ourselves with tools that can compliment our imperfect memory, effectively expanding our brain's capabilities. So, we get to the the [digital personal knowledge management system (PKM)](pkm-system.md).
 
