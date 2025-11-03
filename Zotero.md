@@ -2,6 +2,7 @@
 tags:
   - app
 aliases:
+  - reference manager
 ---
 
 ## Why Zotero?
@@ -11,41 +12,22 @@ aliases:
 - ➖ EndNote isn't free
 - ➕ Zotero has online & offline capabilities and it's free
 
----
-
 ## Download Zotero
 
 - Go to [zotero.org](https://www.zotero.org/) and ==download & install==
 
-![[Pasted image 20250220150857.png|512]]
-
----
-
 ## Extensions: Chrome
-
-![[Pasted image 20250220155340.png|256]]
-
----
 
 ## Extensions: ZotMoov
 
 - [ZotMoov](https://github.com/wileyyugioh/zotmoov) is used to move files to a location.
 - go to github repository and download `.xpi` file
-
-![[Pasted image 20250220153919.png|512]]
-
 - Choose a location for your files, e.g.
-- `C:\Users\deane\OneDrive\Library\Zotero`
-
----
+- `C:\Users\dean-ae\OneDrive\Library\Zotero`
 
 ## Extensions: BibTex install
 
 - [Better BibTex](https://retorque.re/zotero-better-bibtex/) is used to export your citations into a  `.bib` file.
-
-![[Pasted image 20250220154719.png|256]]
-
----
 
 ## Extensions: BibTex settings
 
@@ -58,17 +40,11 @@ aliases:
 	- ☑️ Background export
 	- *ZoteroLibrary.bib*
 
----
-
 ## Library Setup
 
 - Download the `.xpi` files for extensions
 
----
-
 ## Tags
-
-![[zotero-colours.png|256]]
 
 1. 🆕 Abstract
 2. ➡️ Abstract Read, Awaiting Decision

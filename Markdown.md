@@ -8,11 +8,11 @@ title: Markdown Guide
 
 ## Basics
 
-Headings are written with a `#`. For example, the above heading is written as `## Basic Markdown`.
+Headings are written with a `#`. For example, the above heading is written as `## Basics`.
 
 >[!TIP] Why do we start with two #'s instead of one?
 >The first `# Heading` in the document is read as the title.
->You can use the Level One Header (`#`) or a `title` property in the metadata.
+>You can use the Level One Header (`#`) or a `title` property in the metadata (YAML).
 
 Here are some basic text formats you may want.
 
@@ -48,7 +48,3 @@ For a more detailed overview of markdown syntax go to these links:
 
 - [Markdown Cheat Sheet | Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 - [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-
----
-
-**[[academic-writing|Academic Writing]]** `|>` [[Zotero]] `->` [[Markdown]] `->` [[Pandoc]]

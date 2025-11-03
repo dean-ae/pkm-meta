@@ -21,6 +21,15 @@
   align-self: start;
 }
 
+/* Clippings */
+[data-path="Clippings"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="Clippings"] .tree-item-inner::after {
+  content: "Notes from web pages.";
+}
+
 /* Daily */
 [data-path="Daily"] .tree-item-inner {
   height: var(--folder-comments-height);
@@ -28,6 +37,15 @@
 
 [data-path="Daily"] .tree-item-inner::after {
   content: "Daily notes.";
+}
+
+/* Images */
+[data-path="Images"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="Images"] .tree-item-inner::after {
+  content: "Pasted images.";
 }
 
 /* Literature */

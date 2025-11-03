@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "a29ea93f4e447bef",
+        "id": "22a89f8419c99e52",
         "type": "tabs",
         "children": [
           {
-            "id": "7ece0e7f67738de3",
+            "id": "31d8a8c311f21a5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Obsidian.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Obsidian"
+            }
+          },
+          {
+            "id": "f06c34acb7f97d71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "obs-zot.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "obs-zot"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -84,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#species",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +132,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 251.5
+    "width": 251.5,
+    "collapsed": true
   },
   "right": {
     "id": "36408f39905ed7d7",
@@ -125,6 +142,7 @@
       {
         "id": "851dd9e0a3e86ddc",
         "type": "tabs",
+        "dimension": 68.67704280155642,
         "children": [
           {
             "id": "f56f6292b43447da",
@@ -132,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian.md",
+                "file": "obs-zot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian"
+              "title": "Outline of obs-zot"
             }
           },
           {
@@ -151,12 +169,12 @@
               "title": "References"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "86f1810168b1a907",
         "type": "tabs",
+        "dimension": 31.32295719844358,
         "children": [
           {
             "id": "4472225123a868bc",
@@ -164,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "obs-zot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +192,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for obs-zot"
             }
           }
         ]
@@ -195,49 +213,48 @@
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false
+      "darlal-switcher-plus:Open Symbols for the active editor": false
     }
   },
-  "active": "7ece0e7f67738de3",
+  "active": "f06c34acb7f97d71",
   "lastOpenFiles": [
+    "Obsidian.md",
+    "README.md",
+    "R.md",
+    "RMarkdown.md",
+    "Zotero.md",
+    "obs-zot.md",
+    "Mammals.base",
+    "Ursus maritimus.md",
+    "Ailuropoda melanoleuca.md",
+    "Ursidae.md",
+    "Images/desktop.ini",
+    "Images/Pasted image 20251103125509.png",
+    "Images",
+    "Clippings/Obsidian - Wikipedia.md",
+    "Base.base",
+    "Markdown.md",
+    "pkm.md",
     "Meta/Home.md",
+    "Daily/2025-10-01.md",
+    "Literature/Figures",
+    "Meta/Templates/1-extra.md",
+    "Meta/Templates/CALLOUT INFO.md",
+    "Meta/Templates/3-archive.md",
+    "Meta/Templates/2-icon-banner.md",
     "Clippings/I found these springtails in a flower earlier this summer in Scotland. They were quite large as springtails go. Any idea which species.md",
     "Clippings",
-    "README.md",
-    "Base.base",
-    "Daily/2025-10-01.md",
-    "Obsidian.md",
-    "PKM.md",
-    "RStudio.md",
     "Meta/Templates/0-default.md",
-    "Meta/Templates/1-extra.md",
-    "Meta/Templates/2-icon-banner.md",
     "Meta/Templates/daily.md",
     "Meta/Plugins.md",
     "Literature/Notes",
     "Literature/PDFs",
     "Literature/Literature Notes",
     "Literature",
-    "Markdown.md",
-    "Zotero.md",
     "pkm-system.md",
     "productivity-methods.md",
-    "Guides",
-    "Daily",
-    "Meta/Templates",
-    "Meta",
     "hotkeys.md",
-    "Projects/pkm-meta/Markdown.md",
-    "Projects/pkm-meta/Obsidian.md",
-    "Projects/pkm-meta/README.md",
-    "Projects/pkm-meta/pkm-system.md",
-    "Daily Notes/2025-09-29.md",
-    "Projects/BIO-MSc/M2_LiteratureReview/M21-tropical-islands.md",
-    "Daily Notes/2025-09-26.md",
-    "Principle Component Analysis.md",
     "Developer/custom-icons/library.png",
-    "R defaults.md",
     "Developer/R/cheatsheets-documentation/R_col.png",
     "Developer/custom-icons/directory-opus.png",
     "Developer/R/tidyverse/ggsave_example.svg",
@@ -246,7 +263,6 @@
     "Biology/projects/Soil-BON Foodweb/Protocol/Screenshots of Enchytraeid Extraction/Screenshot 2023-04-26 at 08.28.58.png",
     "Biology/projects/Soil-BON Foodweb/Protocol/Screenshots of Enchytraeid Extraction/Screenshot 2023-04-26 at 08.29.00.png",
     "Biology/projects/Soil-BON Foodweb/Protocol/Screenshots of Enchytraeid Extraction/Screenshot 2023-04-26 at 08.27.55.png",
-    "Biology/projects/Soil-BON Foodweb/Protocol/Screenshots of Enchytraeid Extraction/Screenshot 2023-04-26 at 08.28.02.png",
     "Projects/BIO-MSc/MSc.canvas",
     "Projects/BIO-MSc/M1.canvas",
     "Projects/BIO-MSc/M2.canvas",

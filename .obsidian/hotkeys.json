@@ -191,14 +191,6 @@
       "key": "O"
     }
   ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "I"
-    }
-  ],
   "editor:focus-left": [
     {
       "modifiers": [
@@ -477,6 +469,14 @@
         "Mod"
       ],
       "key": "4"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "I"
     }
   ]
 }

@@ -1,6 +1,14 @@
 views:
   - type: table
-    name: Table
+    name: Recently Edited
+    order:
+      - file.name
+      - file.path
+      - file.tags
+    sort:
+      - property: file.mtime
+        direction: DESC
+    limit: 5
   - type: table
     name: Diary
     filters:
@@ -15,3 +23,11 @@ views:
     limit: 7
     columnSize:
       file.name: 156
+  - type: table
+    name: Meetings
+    filters:
+      and:
+        - file.tags.contains("meeting")
+    order:
+      - file.name
+      - aliases

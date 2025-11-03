@@ -1,6 +1,0 @@
----
-tags:
-  - app
-aliases:
-  - R
----

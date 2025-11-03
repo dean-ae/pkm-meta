@@ -1,0 +1,22 @@
+filters:
+  and:
+    - file.tags.contains("species")
+formulas:
+  species name: "* + file.name + *"
+  species names: '"*" + file.name + "*"'
+  name +: icon + " " + file.name
+properties:
+  note.aliases:
+    displayName: common name(s)
+views:
+  - type: cards
+    name: Ursidae
+    filters:
+      and:
+        - parent.contains(link("Ursidae"))
+    order:
+      - formula.name +
+      - aliases
+    image: note.banner
+    cardSize: 280
+    imageAspectRatio: 0.65
