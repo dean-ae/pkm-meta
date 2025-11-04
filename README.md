@@ -3,7 +3,7 @@ To get started, download:
 
 - [🟣 Obsidian](https://obsidian.md/)
 - [🔴 Zotero](https://www.zotero.org/)
-- [🔵 *this vault*](https://github.com/dean-ae/pkm-meta/archive/refs/heads/main.zip)
+- [⚫ *this vault*](https://github.com/dean-ae/pkm-meta/archive/refs/heads/main.zip)
 
 Alternatively, see the contents below to select which application or workflow you're interested in learning about.
 
